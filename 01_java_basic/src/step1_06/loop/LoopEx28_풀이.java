@@ -199,6 +199,43 @@ public class LoopEx28_풀이 {
 		 * @@#
 		 * @@@
 		 */
+		
+		System.out.println();
+		System.out.println("5번 문제");
+		
+		for(int i = 0; i<3; i++) {
+			for(int j = 0; j<3; j++) {
+				if(i==0) { // 1번째 줄
+					if(j==0) {
+						System.out.print("@");
+						
+					}
+					else if(j==1 || j==2) {
+						System.out.print("#");
+					}
+					
+					
+				}
+				
+				if(i==1) { // 2번째 줄 
+					if(j==0 || j==1) {
+						System.out.print("@");
+					}
+					else if(j==2) {
+						System.out.print("#");
+					}
+					
+				}
+				
+				if(i==2) { //3번째 줄
+					 
+					System.out.print("@");
+					
+					
+				}
+			}
+			System.out.println();
+		}
 
 		
 		/*
