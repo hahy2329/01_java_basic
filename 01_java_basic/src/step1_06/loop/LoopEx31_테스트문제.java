@@ -1,5 +1,7 @@
 package step1_06.loop;
 
+import java.util.Scanner;
+
 /*
  
  	(for문)
@@ -24,6 +26,42 @@ package step1_06.loop;
 public class LoopEx31_테스트문제 {
 
 	public static void main(String[] args) {
+		
+	/*
+	 * 	문제1) 9의 배수중 십의 자리가 6인 첫번째 배수 출력
+	 *  답 : 63
+	 * */	
+		
+		for(int i =9; i<=9; i++) {
+			for(int j = 1; j<=9; j++) {
+				if(i*j >60 && i*j<=69) {
+					System.out.println(i + "*" + j + "=" + i*j);
+				}
+			}
+			System.out.println("끝");
+		}
+		
+	/*
+	 * 	
+	 *  문제2) 8로 나누면 5가 남는수 중 150보다 적은수중에 가장 가까운수를 구하시요 ( 절대값 사용 x )
+	 *  답 149
+	 * 
+	 * 
+	 * */
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("150보다 작은 수를 입력해주세요: ");
+		int userNum = scan.nextInt();
+		
+		for(int i = 8; i<=8; i++) {
+			int mod = userNum %8;
+			
+			}
+		}
+		
+		
+		
+		
 
 	}
 
