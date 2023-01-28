@@ -47,6 +47,7 @@ public class LoopEx07_풀이 {
 			
 			
 		}
+		
 		scan.close();
 		System.out.println("최종 점수는 " + score +"점 입니다.");
 		
