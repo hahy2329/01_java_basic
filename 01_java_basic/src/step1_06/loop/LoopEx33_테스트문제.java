@@ -23,7 +23,7 @@ import java.util.Scanner;
  * 입력 : 10
  * 입력 : -1
  * 
- * 결과 : key값 7가 첫번재 나타난 것은 2번째 이다.
+ * 결과 : key값 7이 첫번재 나타난 것은 2번째 이다.
  * 
  */
 
@@ -37,9 +37,36 @@ public class LoopEx33_테스트문제 {
         
 		System.out.print("key값 입력 : ");
 		int key = scan.nextInt();
- 
+		int count = key;
+		boolean isRun = true;
+		while(isRun) {
+			
+			for (int i = key; i >=4; i--) {
+				
+				System.out.print("입력: ");
+				int userNum = scan.nextInt();
+				
+				
+				
+				if(i ==4) {
+					System.out.println("입력: "+ -1);
+					System.out.println("not found");
+					isRun = false;
+					break;
+				}
+				
+				System.out.println("입력: " + key);
+				
+				
+				
+			}
+			scan.close();
+			
+		}
+		
+		
 
-		scan.close();
+		
 	}
 
 }

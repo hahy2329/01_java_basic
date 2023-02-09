@@ -1,5 +1,6 @@
 package step1_06.loop;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 /*
@@ -24,6 +25,32 @@ public class LoopEx32_테스트문제 {
 		
 		System.out.print("Enter Number ? ");
 		int getNumber = scan.nextInt();
+		
+		int maxNum = 0; //가장 큰 수 찾기
+		
+		
+		for (int i = getNumber; i < getNumber+10; i++) {
+			int count = 0;
+			for (int j = 1; j <=i; j++) {
+				
+				if(i%j==0) {
+					count++;
+				}
+				
+				
+				
+				
+			}
+			
+			if(count == 2) {
+				if(maxNum<i) {
+					maxNum = i;
+				}
+			}
+			
+		}
+		
+		System.out.println(getNumber+"보다 큰 첫 번째 소수는 " + maxNum+"입니다.");
 		
 		scan.close();
 		
