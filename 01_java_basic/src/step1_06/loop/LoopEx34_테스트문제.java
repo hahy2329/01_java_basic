@@ -18,35 +18,29 @@ import java.util.Iterator;
  * 
 */
 
-class Ex01{
-	int testA(int c) {
-		int a = c;
-		
-		return a;
-	}
-}
+
 public class LoopEx34_테스트문제 {
 
 	public static void main(String[] args) {
-		int a = 6;
-		Ex01 test = new Ex01();
 		
-		int c = test.testA(a);
-		
-		a = 7;
-		
-		
-		System.out.println(test.testA(a));
-		System.out.println(a);
-		
-		
-		
-		
+		for (int i = 1; i <= 9 ; i++) {
+			for (int j = 0; j <= 9 ; j++) {
+				System.out.print(" ");
+				
+				if(j == 5) {
+					for (int j2 = 0; j2 < i; j2++) {
+						
+						System.out.print(i);
+						System.out.print(" ");
+						
+					}
+				}
+			}
+			System.out.println();
 			
 			
-			
+		}
+
 	}
-
 }
-
 
