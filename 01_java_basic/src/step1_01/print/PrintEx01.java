@@ -66,6 +66,7 @@ public class PrintEx01 {
 		
 		
 		
+		
 		System.out.println("1) 로그인(login)");
 		System.out.println("2) 로그아웃(logout");
 		System.out.println("3) 종료(exit)");
